@@ -74,6 +74,14 @@ a {
     right: 0;
 }
 
+.container-main {
+    width: calc(100vw - 200px);
+    background-color: lightgray;
+    padding-top: 150px;
+    overflow: auto;
+}
+
+
 .container-menu {
     width: 200px;
     height: calc(100vh - 100px);
