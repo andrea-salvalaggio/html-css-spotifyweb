@@ -90,6 +90,15 @@ a {
     overflow: hidden;
 }
 
+.album {
+    width: calc(100vw / 6 - 20px);
+    margin: 10px;
+}
+
+.album-m-img {
+    width: 200px;
+}
+
 /* Footer */
 footer {
     width: 100%;
@@ -145,7 +154,6 @@ footer {
 
 .album-title-f {
     font-size: 14px;
-    font-weight: 700;
 }
 
 .album-subtitle-f {
