@@ -68,6 +68,10 @@ li {
     flex-wrap: wrap;
 }
 
+.margin-t-b {
+    margin: 10px 0;
+}
+
 /* Main */
 main {
     overflow: hidden;
@@ -198,12 +202,19 @@ ul li {
     color: #6e7176;
 }
 
+span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7176;
+}
+
 .active-i {
     filter: opacity(100%);
 }
 
 .active-t {
     color: white;
+    font-weight: 700;
 }
 
 .active-t-i {
@@ -211,12 +222,13 @@ ul li {
 }
 
 .icon-big {
-    font-size: 50px;
+    font-size: 40px;
     vertical-align: middle;
 }
 
 hr {
     margin: 5px 0;
+    border: 0.5px solid #6e7176;
 }
 
 /* Footer */
@@ -314,6 +326,11 @@ footer {
     .cover {
         width: calc(100% / 4 - 20px);
     }
+
+    .nav-cnt li {
+        font-size: 10px;
+        padding: 0 5px;
+    }
 }
 
 @media screen and (max-width: 601px) {
@@ -345,5 +362,22 @@ footer {
 
     .logo-small {
         display: block;
+    }
+
+    span {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .icon,
+    img {
+        width: 80%;
     }
 }
