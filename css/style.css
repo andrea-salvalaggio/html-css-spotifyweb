@@ -12,7 +12,6 @@ body {
 :root {
     --main-color: #141922;
     --footer-color: #282828;
-    --nav-column: #0000;
     --active-color: #adff2f;
 }
 
@@ -26,6 +25,7 @@ a {
 
 li {
     list-style: none;
+    padding: 5px 0;
 }
 
 .grey a {
@@ -100,7 +100,7 @@ main {
 .container-menu {
     width: 200px;
     /* height: calc(100vh - 100px); */
-    background-color: lightcoral;
+    background-color: black;
     padding: 20px;
 }
 
@@ -121,7 +121,7 @@ main {
     padding: 12px 40px;
     border: 1px solid white;
     border-radius: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .nav-cnt li {
@@ -141,11 +141,13 @@ main {
 }
 
 h2 {
+    font-size: 20px;
     color: white;
     margin: 10px;
 }
 
 .cover h3 {
+    font-size: 15px;
     color: white;
     text-align: center;
 }
@@ -168,6 +170,53 @@ h2 {
     font-size: 15px;
     font-weight: 700;
     margin: 10px;
+}
+
+.logo-big {
+    margin-bottom: 20px;
+}
+
+.logo-small {
+    display: none;
+}
+
+.icon {
+    width: 15%;
+    vertical-align: middle;
+    filter: invert(0.5);
+}
+
+.profile-img {
+    background-color: #6e7176;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+ul li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7176;
+}
+
+.active-i {
+    filter: opacity(100%);
+}
+
+.active-t {
+    color: white;
+}
+
+.active-t-i {
+    color: #a3a3a3;
+}
+
+.icon-big {
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+hr {
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -246,7 +295,6 @@ footer {
     width: 50%;
 }
 
-
 /***** Responsive *****/
 @media screen and (max-width: 1100px) {
     footer {
@@ -289,5 +337,13 @@ footer {
 
     .container-album {
         width: calc(100% - 80px);
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
     }
 }
