@@ -68,10 +68,6 @@ li {
     flex-wrap: wrap;
 }
 
-.margin-l {
-    margin-left: 10px;
-}
-
 /* Main */
 main {
     overflow: hidden;
@@ -85,7 +81,7 @@ main {
 .container-top {
     width: calc(100% - 200px);
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     position: fixed;
     top: 0;
     right: 0;
@@ -96,6 +92,7 @@ main {
     width: calc(100% - 200px);
     background-color: var(--main-color);
     margin-top: 100px;
+    padding: 20px;
     overflow: auto;
 }
 
@@ -144,12 +141,11 @@ main {
 }
 
 h2 {
-    font-size: 20px;
     color: white;
+    margin: 10px;
 }
 
 .cover h3 {
-    font-size: 15px;
     color: white;
     text-align: center;
 }
@@ -159,7 +155,6 @@ h2 {
     font-weight: 700;
     color: #6e7176;
     text-align: center;
-    line-height: 30px;
 }
 
 .circle-img {
@@ -167,6 +162,12 @@ h2 {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.album-subtitle-main {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
 }
 
 /* Footer */
