@@ -106,7 +106,7 @@ main {
 
 .container-menu {
     width: 200px;
-    height: 100vh;
+    height: calc(100vh - 100px);
     background-color: black;
     padding: 20px;
 }
@@ -256,6 +256,14 @@ hr {
     left: 0;
     font-size: 50px;
     text-align: center;
+}
+
+.overflow-ul {
+    overflow-y: auto;
+}
+
+.container-playlist {
+    min-height: 0;
 }
 
 /* Footer */
